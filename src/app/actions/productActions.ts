@@ -7,7 +7,7 @@ export async function getProducts() {
       orderBy: { createdAt: "desc" }
     });
     return { success: true, data: products };
-  } catch (error) {
-    return { success: false, error: "Failed to fetch products" };
+  } catch (error: any) {
+    return { success: false, error: error.message || "Failed to fetch products" };
   }
 }

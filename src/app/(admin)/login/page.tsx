@@ -22,7 +22,7 @@ export default function LoginPage() {
       setError("Email atau Password salah!");
       setLoading(false);
     } else {
-      router.push("/admin/dashboard");
+      router.push("/dashboard");
       router.refresh();
     }
   };

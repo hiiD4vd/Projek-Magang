@@ -20,7 +20,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     if (status === "unauthenticated") {
-      router.push("/admin/login");
+      router.push("/login");
     } else if (status === "authenticated") {
       fetchProducts();
     }
