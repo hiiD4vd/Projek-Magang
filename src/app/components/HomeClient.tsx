@@ -323,6 +323,17 @@ export default function HomeClient({ wines }: { wines: any[] }) {
           ))}
         </div>
       </section>
+
+      {/* Secret Admin Footer */}
+      <footer className="w-full py-8 text-center text-zinc-500 text-xs bg-zinc-50 font-sans border-t border-zinc-200">
+        <p>
+          &copy; {new Date().getFullYear()}{" "}
+          <a href="/login" className="hover:text-zinc-800 transition-colors">
+            Infinity
+          </a>{" "}
+          Vines Cikarang. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 }
