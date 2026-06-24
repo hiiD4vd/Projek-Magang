@@ -5,19 +5,19 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lumina Estate | Vineyards",
-  description: "Unveiling the essence of fine wine at Lumina Estate Vineyards.",
+  title: "Infinity Vines | Cikarang",
+  description: "Unveiling the absolute domain of fine wine at Infinity Vines Cikarang.",
   openGraph: {
-    title: "Lumina Estate | Vineyards",
-    description: "Unveiling the essence of fine wine at Lumina Estate Vineyards.",
-    url: "https://wine-lokal.vercel.app/",
-    siteName: "Lumina Estate",
+    title: "Infinity Vines | Cikarang",
+    description: "Unveiling the absolute domain of fine wine at Infinity Vines Cikarang.",
+    url: "https://infinityvines.com",
+    siteName: "Infinity Vines",
     images: [
       {
         url: "https://wine-lokal.vercel.app/banner.jpg",
         width: 1200,
         height: 630,
-        alt: "Lumina Estate Vineyards",
+        alt: "Infinity Vines Cikarang",
       },
     ],
     locale: "en_US",
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lumina Estate | Vineyards",
-    description: "Unveiling the essence of fine wine at Lumina Estate Vineyards.",
+    title: "Infinity Vines | Cikarang",
+    description: "Unveiling the absolute domain of fine wine at Infinity Vines Cikarang.",
     images: ["https://wine-lokal.vercel.app/banner.jpg"],
   },
 };

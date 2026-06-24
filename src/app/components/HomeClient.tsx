@@ -173,7 +173,7 @@ export default function HomeClient({ wines }: { wines: any[] }) {
     <div ref={container} className="relative w-full overflow-x-hidden">
       <header className="!fixed !inset-0 !bottom-auto !flex !flex-row !justify-between !items-center !px-6 md:!px-16 !py-6 md:!py-9 !z-[100] w-full">
         <div className="logo flex flex-col items-start gap-1">
-          <span className="logo-main font-serif-swash text-[2.2rem] font-thin leading-none tracking-normal">Lumina Estate</span>
+          <span className="logo-main font-serif-swash text-[2.2rem] font-thin leading-none tracking-normal">Infinity Vines</span>
           <span className="logo-sub font-sans text-[0.6rem] tracking-[3.5px] text-gray-500 uppercase mt-[7px]">Vineyards</span>
         </div>
         
@@ -224,10 +224,10 @@ export default function HomeClient({ wines }: { wines: any[] }) {
         <h2 className="about-heading">UNVEILING THE<br />ESSENCE OF<br />WINE</h2>
         <div className="about-grid">
           <div className="about-text">
-            We believe that a wine tour should be more than just a sip-and-see experience. It should be a journey that engages, educates, and entertains.
+            Forged in the intense industrial heat of Cikarang, we utilize 'Limitless' fermentation techniques to create an expanding domain of flavor. Every sip is an engaging and powerful experience.
           </div>
           <div className="about-text">
-            Our approach is a perfect blend of rich heritage and modern viticulture expertise. Together, they create an atmosphere where learning about wine becomes an adventure.
+            Our approach is a perfect blend of resilient Cikarang heritage and modern Jujutsu mastery. Together, they create an atmosphere where tasting our wine becomes an absolute domain expansion.
           </div>
         </div>
         <hr className="about-divider" />
